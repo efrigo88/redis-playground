@@ -34,7 +34,7 @@ You can run the application in two ways:
 
 1. Using Docker Compose directly:
 ```bash
-docker-compose up
+docker compose up
 ```
 
 2. Using the Makefile (recommended):
@@ -59,7 +59,7 @@ redis-cli -h localhost -p 6379
 
 2. Using Redis CLI from the container:
 ```bash
-docker-compose exec redis redis-cli
+docker compose exec redis redis-cli
 ```
 
 ## Project Structure
