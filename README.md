@@ -72,7 +72,6 @@ docker compose exec redis redis-cli
 ├── Dockerfile
 ├── Makefile
 ├── .env.example
-├── .env
 ├── LICENSE
 └── README.md
 ```
